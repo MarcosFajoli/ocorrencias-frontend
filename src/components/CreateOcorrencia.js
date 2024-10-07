@@ -54,7 +54,7 @@ const CreateOcorrencia = () => {
         axios.post(
             'http://localhost:3000/ocorrencias',
             {
-              descricao: 'Descrição da ocorrência',
+              descricao: description,
               isAnonima: false,
             },
             {

@@ -50,8 +50,7 @@ const Dashboard = () => {
       <OcorrenciaList>
         {ocorrencias.map((ocorrencia) => (
           <OcorrenciaItem key={ocorrencia.id}>
-            <h3>{ocorrencia.title}</h3>
-            <p>{ocorrencia.description}</p>
+            <p>{ocorrencia.descricao}</p>
           </OcorrenciaItem>
         ))}
       </OcorrenciaList>

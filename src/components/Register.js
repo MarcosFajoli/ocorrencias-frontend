@@ -50,7 +50,7 @@ const Button = styled.button`
 const Register = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [role, setRole] = useState('student'); // Definindo como "user" por padrão
+  const [role, setRole] = useState('admin'); // Definindo como "user" por padrão
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
